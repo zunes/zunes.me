@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "Zegoe UI Semi Bold - U";
+    src: url("ZegoeUISemiBold-U.ttf") format("truetype")
+}
+
+
+/* mobile navbar navbar */
+
+.mobnav {
+    top: 0;
+    right: 0;
+    width: 0;
+    z-index: 1;
+    height: 100%;
+    position: fixed;
+    transition: 0.5s;
+    padding-top: 60px;
+    overflow-x: hidden;
+    background-color: #25282a;
+}
+
+.mobnav a {
+    display: block;
+    font-size: 25px;
+    color: #ffffff;
+    transition: 0.3s;
+    text-decoration: none;
+    padding: 7px 8px 7px 32px;
+}
+
+.mobnav a:hover {
+    color: #888B8D;
+}
+
+.mobnav .closebtn {
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+
+/* responsive */
+
+@media screen and (max-height: 450px) {
+    .mobnav {
+        padding-top: 15px;
+    }
+    .mobnav a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .mobilenavbtn {
+        display: none !important;
+    }
+}
+
+
+/* desktop navbar */
+
+.navbar {
+    margin-top: 0;
+    padding-top: 5px;
+    background-color: #25282a;
+    display: block;
+    overflow: hidden;
+}
+
+.desktop-nav {
+    left: 0;
+    margin-top: 0;
+    display: block;
+    margin-bottom: 0;
+    padding-top: 3px;
+    margin-left: 5.5%;
+    padding-bottom: 3px;
+    transition: 143.9ms;
+}
+
+.desktop-nav li {
+    float: left;
+    margin-left: 2px;
+    margin-right: 2px;
+    transition: 0.5ms;
+    list-style-type: none;
+}
+
+.desktop-nav li a {
+    display: block;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 6px;
+    padding-top: 8px;
+    margin-bottom: 6px;
+    padding-left: 14px;
+    text-align: center;
+    padding-bottom: 8px;
+    padding-right: 14px;
+    border-radius: 13px;
+    text-decoration: none;
+    font-family: "Zegoe UI Semi Bold - U";
+}
+
+.desktop-nav a:hover:not(.active) {
+    color: #888B8D;
+}
+
+.active a {
+    color: #8C8B89;
+}
+
+
+/* responstive */
+
+@media screen and (max-width: 1024px) {
+    .desktop-nav {
+        display: none !important;
+    }
+}

@@ -1,0 +1,243 @@
+/* used for headline  */
+
+@font-face {
+    font-family: "Zegoe Caps";
+    src: url("ZegoeCapsBold.ttf") format("truetype")
+}
+
+
+/* used for subheadline  */
+
+@font-face {
+    font-family: "Zegoe Light - U";
+    src: url("ZegoeLight-U.ttf") format("truetype")
+}
+
+
+/* used for title  */
+
+@font-face {
+    font-family: "Zegoe UI Semi Bold - U";
+    src: url("ZegoeUISemiBold-U.ttf") format("truetype")
+}
+
+
+/* used for body  */
+
+@font-face {
+    font-family: "Zegoe UI - U";
+    src: url("./ZegoeUI-U.ttf") format("truetype")
+}
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+}
+
+
+/* this is a headline
+ * 
+ * Short attitudinal brand messaging, such as advertising headlines, should be in uppercase letters. 
+ *
+ * tracking: -40/1000 em.
+ * leading: 80% of font size (e.g., 60pt font requires 48pt leading)
+*/
+
+h1 {
+    font-family: "Zegoe Caps";
+    font-size: 50pt;
+    line-height: 80%;
+}
+
+
+/* this is a subheadline
+ *
+ * For sub-headlines, and UI use segoe light in lowecase letters.
+ * tracking: 0/1000 em. 
+ * leading: 100% of font size (e.g., 8pt font requires 8pt leading) 
+ */
+
+h2 {
+    font-family: "Zegoe Light - U";
+    font-size: 30pt;
+    line-height: 100%;
+}
+
+
+/* this is a title
+ *
+ * For titles use segoe regular in uppercase letters.
+ * tracking: 0/1000 em.
+ * leading: 100% of font size (e.g., 8pt font requires 8pt leading)
+*/
+
+h3 {
+    font-family: "Zegoe UI Semi Bold - U";
+    font-size: 15pt;
+    line-height: 100%;
+}
+
+
+/* this is body copy
+ *
+ * For body copy use segoe regular in upper and lowercase letters.
+ * tracking: 0/1000 em.
+ * leading: 100% of font size (e.g., 8pt font requires 8pt leading)
+*/
+
+p {
+    font-family: "Zegoe Ul - U";
+    font-size: 12pt;
+    line-height: 100%;
+}
+
+hr {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 15px;
+    margin-left: 15px;
+    border: 1px solid #C8C9C7;
+}
+
+
+/* small text to be places above <hr> tag alway use <h3> for the right font (title)
+ * !!! upper case only stick with the zune-brand-guidelines 
+*/
+
+.hr-text {
+    margin: 0;
+    cursor: default;
+    font-size: small;
+    color: #C8C9C7;
+    margin-left: 15px;
+    line-height: 100%;
+}
+
+
+/* default text use for most things  like UPERCASE headlines titles and body */
+
+.texta {
+    color: #25282a;
+}
+
+
+/* use now and againg */
+
+.textb {
+    color: #8C8B89;
+}
+
+
+/* use mostly for subheadline */
+
+.textc {
+    color: #888B8D;
+}
+
+
+/* not realy used*/
+
+.textd {
+    color: #d9d9d6;
+}
+
+
+/* Pantone Process Magenta C 
+ * can sometimes be used as a highlight or accent color
+ */
+
+.texte {
+    color: #d6006c;
+}
+
+
+/* colour palet */
+
+.white {
+    color: #FFFFFF;
+}
+
+.pantone-cool-grey-1c {
+    color: #d9d9d6;
+}
+
+.pantone-cool-grey-3c {
+    color: #C8C9C7;
+}
+
+.pantone-cool-grey-8c {
+    color: #888B8D;
+}
+
+.pantone-8001c {
+    color: #8C8B89;
+}
+
+
+/*could be something like #697771*/
+
+.pantone-246c {
+    color: #25282a;
+}
+
+
+/* secondary */
+
+.pantone-process-magenta-c {
+    color: #d6006c;
+}
+
+
+/*only use in the  gradient*/
+
+.pantone-orange-21c {
+    color: #fe5000;
+}
+
+
+/* css for the navbar*/
+
+.signature-colour {
+    background-image: linear-gradient(to right, #fe5000, #d6006c);
+    padding: 0.6%;
+}
+
+#brand {
+    margin-left: 10%;
+    float: left;
+    margin-right: 3.5%;
+    vertical-align: middle;
+}
+
+.zunelogo {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+
+/* css for page content*/
+
+.content {
+    margin-top: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: block;
+}
+
+a {
+    color: #d6006c;
+}
+
+footer {
+    background-color: #888B8D;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    color: #FFFFFF;
+    padding-left: 2.3%;
+    margin-top: 100px;
+    overflow: hidden;
+}
