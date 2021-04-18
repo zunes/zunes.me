@@ -199,7 +199,7 @@ hr {
 
 .signature-colour {
     background-image: linear-gradient(to right, #fe5000, #d6006c);
-    padding: 8px;
+    height: 8px;
 }
 
 #brand {
